@@ -4,7 +4,7 @@
 
 ## Requirement Specification
 
-### FE [Link Github Page]()
+### FE [Link Github Page](https://rizkydharma02.github.io/FE-Ghohotel/)
 
 - Native HTML, CSS, Javascript, Font-Awesome.
 
