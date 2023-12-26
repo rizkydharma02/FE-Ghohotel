@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/myicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Room</title>
+  </head>
+  <body id="rooms">
+    <header id="header-section">
+      <div class="container">
+        <div class="content d-flex">
+          <div class="logo">
+            <a href="../index.html">GHOHOTEL</a>
+          </div>
+          <div class="toggle-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <nav class="nav">
+            <div class="menu">
+              <li><a href="../index.html">home</a></li>
+              <li><a class="active" href="room.html">rooms</a></li>
+              <li><a href="./event.html">events</a></li>
+              <li><a href="./about.html">about</a></li>
+              <li><a href="./contact.html">contact</a></li>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section id="hero-section">
+      <div class="slider__container">
+        <div class="slide">
+          <div class="content">
+            <div class="title">
+              <h1>Hotel Rooms</h1>
+              <span>enjoy our comfortable and pleasant hotel room</span>
+            </div>
+            <img src="../assets/img/slider-7.jpg" alt="slide-1" />
+          </div>
+        </div>
+      </div>
+      <div class="buttons" hidden>
+        <button class="prev-btn"><i class="fas fa-arrow-left"></i></button>
+        <button class="next-btn"><i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+
+    <section class="section-room">
+      <div class="container">
+        <div class="title">
+          <h2>Rooms</h2>
+        </div>
+        <div class="content">
+          <div class="cards grid" id="roomList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-room">
+      <div class="container">
+        <div class="title">
+          <h2>Parks</h2>
+        </div>
+        <div class="content">
+          <div class="cards grid">
+            <div class="card fade-in">
+              <a class="s-img">
+                <img aria-label="room" src="../assets/img/park-1.jpg" alt="bed" />
+              </a>
+              <div class="card-content">
+                <a class="room-name">main courtyard garden</a>
+              </div>
+            </div>
+            <div class="card fade-in">
+              <a class="s-img">
+                <img aria-label="room" src="../assets/img/park-2.jpg" alt="bed" />
+              </a>
+              <div class="card-content">
+                <a class="room-name">backyard garden</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-room">
+      <div class="container">
+        <div class="title">
+          <h2>Swimming Pool</h2>
+        </div>
+        <div class="content">
+          <div class="cards grid">
+            <div class="card fade-in">
+              <a class="s-img">
+                <img aria-label="room" src="../assets/img/swimmingpool-1.jpg" alt="bed" />
+              </a>
+              <div class="card-content">
+                <a class="room-name">public swimming pool</a>
+              </div>
+            </div>
+            <div class="card fade-in">
+              <a class="s-img">
+                <img aria-label="room" src="../assets/img/swimmingpool-2.jpg" alt="bed" />
+              </a>
+              <div class="card-content">
+                <a class="room-name">children's swimming pool</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-room">
+      <div class="container">
+        <div class="title">
+          <h2>Lobby</h2>
+        </div>
+        <div class="content">
+          <div class="cards grid">
+            <div class="card fade-in">
+              <a class="s-img">
+                <img aria-label="room" src="../assets/img/lobby-1.jpg" alt="bed" />
+              </a>
+              <div class="card-content">
+                <a class="room-name">main lobby</a>
+              </div>
+            </div>
+            <div class="card fade-in">
+              <a class="s-img">
+                <img aria-label="room" src="../assets/img/lobby-2.jpg" alt="bed" />
+              </a>
+              <div class="card-content">
+                <a class="room-name">relaxing lobby</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer-section">
+      <div class="container">
+        <div class="grid">
+          <div class="about m-b">
+            <h3>about</h3>
+            <p>Gho Hotel presents the ideal destination for an eco-friendly holiday.</p>
+          </div>
+          <div class="quick-menu menu--links m-b">
+            <h3>quick menu</h3>
+            <li><a href="./room.html">rooms</a></li>
+            <li><a href="./event.html">events</a></li>
+            <li><a href="./about.html">about</a></li>
+            <li><a href="./contact.html">contact</a></li>
+          </div>
+          <div class="other-links menu--links m-b">
+            <h3>Hotel Features</h3>
+            <li><a href="#hotel-features">free wifi</a></li>
+            <li><a href="#hotel-features">Green Hotel</a></li>
+            <li><a href="#hotel-features">Privacy Room</a></li>
+            <li><a href="#hotel-features">swimming pool</a></li>
+          </div>
+          <div class="social-links m-b">
+            <h3>social icons</h3>
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.twitter.com/" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/" target="_blank">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright &copy; 2023 All Rights Reserved | by
+            <a href="../index.html">Gho Hotel</a>
+          </p>
+        </div>
+      </div>
+      <div class="page-up">
+        <a href="#">
+          <i class="fas fa-angle-double-up"></i>
+        </a>
+      </div>
+    </section>
+    <script defer src="../js/index.js"></script>
+    <script defer src="../js/server-room.js"></script>
+  </body>
+</html>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/myicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Home</title>
+  </head>
+  <body id="home">
+    <header id="header-section">
+      <div class="container">
+        <div class="content d-flex">
+          <div class="logo">
+            <a href="./index.html">GHOHOTEL</a>
+          </div>
+          <div class="toggle-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <nav class="nav">
+            <div class="menu">
+              <li><a class="active" href="index.html">home</a></li>
+              <li><a href="./pages/room.html">rooms</a></li>
+              <li><a href="./pages/event.html">events</a></li>
+              <li><a href="./pages/about.html">about</a></li>
+              <li><a href="./pages/contact.html">contact</a></li>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section id="hero-section">
+      <div class="slider__container">
+        <div class="slide">
+          <div class="content">
+            <div class="title">
+              <h1>Welcome To Gho Hotel</h1>
+              <span>Experience Tranquility and Elegance</span>
+            </div>
+            <img src="./assets/img/slider-1.jpg" alt="slide-1" />
+          </div>
+        </div>
+        <div class="slide">
+          <div class="content">
+            <div class="title">
+              <h1>Green Hotel Experience</h1>
+              <span>Your Green Retreat for a Sustainable Stay</span>
+            </div>
+            <img src="./assets/img/slider-2.jpg" alt="slide-2" />
+          </div>
+        </div>
+        <div class="slide">
+          <div class="content">
+            <div class="title">
+              <h1>Relaxing Room</h1>
+              <span>Sanctuary of Relaxation Awaits</span>
+            </div>
+            <img src="./assets/img/slider-3.jpg" alt="slide-3" />
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="prev-btn"><i class="fas fa-arrow-left"></i></button>
+        <button class="next-btn"><i class="fas fa-arrow-right"></i></button>
+      </div>
+    </section>
+    <section class="section-about">
+      <div class="container">
+        <div class="content grid">
+          <div class="fade-in">
+            <div class="img">
+              <img aria-label="room" src="./assets/img/about-img.jpg" alt="room" />
+            </div>
+          </div>
+          <div class="about">
+            <h2>about us</h2>
+            <p>
+              Gho Hotel presents the ideal destination for an eco-friendly holiday. We are committed to providing a unique and comprehensive staying experience while preserving the environment. As an eco-friendly hotel, we combine modern
+              comfort with sustainable practices to create a healthy and friendly environment for both our guests and our planet.
+            </p>
+            <a href="./pages/about.html" class="btn about-btn">
+              <span>read more</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-room">
+      <div class="container">
+        <div class="title">
+          <h2>Our Rooms</h2>
+        </div>
+        <div class="content">
+          <div class="cards grid" id="roomList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-events">
+      <div class="container">
+        <h2>Upcoming Events</h2>
+        <div class="event grid">
+          <div class="card">
+            <a href="pages/event.html">
+              <img aria-label="event" src="./assets/img/archery.jpg" alt="event" />
+            </a>
+            <div class="title">
+              <a class="sub-head" href="pages/event.html">Archery</a>
+              <div class="d-flex">
+                <p class="date">nov 29th, 2021</p>
+                <p>by <a class="role">Gho Hotel</a></p>
+              </div>
+            </div>
+            <div class="text">
+              <p>Join the archery experince under the supervision of well-trained staff. Gho Hotel provide private and group archery session.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="pages/event.html">
+              <img aria-label="event" src="./assets/img/animal feeding.jpg" alt="event" />
+            </a>
+            <div class="title">
+              <a class="sub-head" href="pages/event.html">Animal Feeding</a>
+              <div class="d-flex">
+                <p class="date">nov 29th, 2021</p>
+                <p>by <a class="role">Gho Hotel</a></p>
+              </div>
+            </div>
+            <div class="text">
+              <p>Guests are invented to join the animal feeding experience.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="pages/event.html">
+              <img aria-label="room" src="./assets/img/flying fox.jpg" alt="room" />
+            </a>
+            <div class="title">
+              <a class="sub-head" href="pages/event.html">Fly Fox</a>
+              <div class="d-flex">
+                <p class="date">nov 29th, 2021</p>
+                <p>by <a class="role">Gho Hotel</a></p>
+              </div>
+            </div>
+            <div class="text">
+              <p>Flying Fox is Gho Hotel is high-speed ride and offers guests a thrilling. Supervised by fully trained staff.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="pages/event.html">
+              <img aria-label="room" src="./assets/img/wall climbing.jpg" alt="room" />
+            </a>
+            <div class="title">
+              <a class="sub-head" href="pages/event.html">Wall Climbing</a>
+              <div class="d-flex">
+                <p class="date">nov 29th, 2021</p>
+                <p>by <a class="role">Gho Hotel</a></p>
+              </div>
+            </div>
+            <div class="text">
+              <p>Enjoy thrilling climb to the top. Guide by our fully trained staff to ensure your safety.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="pages/event.html">
+              <img aria-label="room" src="./assets/img/art-exhibition.jpg" alt="room" />
+            </a>
+            <div class="title">
+              <a class="sub-head" href="pages/event.html">Art Exhibition</a>
+              <div class="d-flex">
+                <p class="date">Dec 10th, 2023</p>
+                <p>by <a class="role">Gho Hotel</a></p>
+              </div>
+            </div>
+            <div class="text">
+              <p>As part of our commitment to fostering artistic expression, we proudly host regular art exhibitions at our hotel.</p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="pages/event.html">
+              <img aria-label="room" src="./assets/img/music-orcestra.jpg" alt="room" />
+            </a>
+            <div class="title">
+              <a class="sub-head" href="pages/event.html">Orchestra Perfomance</a>
+              <div class="d-flex">
+                <p class="date">Dec 17th, 2023</p>
+                <p>by <a class="role">Gho Hotel</a></p>
+              </div>
+            </div>
+            <div class="text">
+              <p>Revel in the harmonious melodies of our live orchestra performances and savor the magic.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-features" id="hotel-features">
+      <div class="container">
+        <h2>hotel services</h2>
+        <div class="content grid">
+          <div class="row fade-in">
+            <div class="circle-icon">
+              <i class="fa-solid fa-person-swimming"></i>
+              <h3>Swimming Pool</h3>
+            </div>
+          </div>
+          <div class="row fade-in">
+            <div class="circle-icon">
+              <i class="fa-solid fa-tree"></i>
+              <h3>Green Hotel</h3>
+            </div>
+          </div>
+          <div class="row fade-in">
+            <div class="circle-icon">
+              <i class="fa-solid fa-broom"></i>
+              <h3>Clean Rooms</h3>
+            </div>
+          </div>
+          <div class="row fade-in">
+            <div class="circle-icon">
+              <i class="fa-solid fa-briefcase"></i>
+              <h3>Business Rooms</h3>
+            </div>
+          </div>
+          <div class="row fade-in">
+            <div class="circle-icon">
+              <i class="fa-solid fa-wifi"></i>
+              <h3>Wifi</h3>
+            </div>
+          </div>
+          <div class="row fade-in">
+            <div class="circle-icon">
+              <i class="fa-solid fa-utensils"></i>
+              <h3>Restaurant</h3>
+            </div>
+          </div>
+          <div class="row fade-in">
+            <div class="circle-icon">
+              <i class="fa-solid fa-car"></i>
+              <h3>Car Valet</h3>
+            </div>
+          </div>
+          <div class="row fade-in">
+            <div class="circle-icon">
+              <i class="fa-solid fa-user-secret"></i>
+              <h3>Privacy Room</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-facilities">
+      <div class="container">
+        <div class="content grid">
+          <div class="promo">
+            <h3>HOTEL FACILITIES</h3>
+            <a href="pages/room.html" class="btn cta">AVAILABLE NOW</a>
+          </div>
+          <div class="facilities">
+            <span>ROOMS AVAILABLE</span>
+            <div class="d-flex">
+              <div>
+                <h4>75</h4>
+                <p>Room</p>
+              </div>
+              <div>
+                <h4>2</h4>
+                <p>Swimming Pool</p>
+              </div>
+              <div>
+                <h4>2</h4>
+                <p>Park</p>
+              </div>
+              <div>
+                <h4>2</h4>
+                <p>Lobby</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="grid gallery">
+          <img class="img" aria-label="room" src="./assets/img/gallery-1-preview.jpg" alt="The swimming section" data-original="./assets/img/gallery-1-full.jpg" />
+          <img class="img" aria-label="room" src="./assets/img/gallery-2-preview.jpg" alt="The dining section" data-original="./assets/img/gallery-2-full.jpg" />
+          <img class="img" aria-label="room" src="./assets/img/gallery-3-preview.jpg" alt="The reception section" data-original="./assets/img/gallery-3-full.jpg" />
+          <img class="img" aria-label="room" src="./assets/img/gallery-5-preview.jpg" alt="Bedroom section" data-original="./assets/img/gallery-5-full.jpg" />
+          <img class="img" aria-label="room" src="./assets/img/gallery-6-preview.jpg" alt="The lobby section" data-original="./assets/img/gallery-6-full.jpg" />
+          <img class="img" aria-label="room" src="./assets/img/gallery-7-preview.jpg" alt="Water walkway section" data-original="./assets/img/gallery-7-full.jpg" />
+          <img class="img" aria-label="room" src="./assets/img/gallery-4-preview.jpg" alt="The swimming section" data-original="./assets/img/gallery-4-full.jpg" />
+          <img class="img" aria-label="room" src="./assets/img/gallery-9-preview.jpg" alt="The Park section" data-original="./assets/img/gallery-9-full.jpg" />
+        </div>
+      </div>
+
+      <div id="modal" class="modal-container">
+        <img src="" class="full-img" alt="" />
+        <p class="caption"></p>
+      </div>
+    </section>
+
+    <section class="section-testimony">
+      <div class="container">
+        <h2>What People Say</h2>
+        <div class="testimony grid">
+          <div class="card d-flex">
+            <img aria-label="woman" src="./assets/img/testi-1.jpg" alt="woman" />
+            <div class="content">
+              <h3>Rara</h3>
+              <div class="ratings">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <blockquote>
+                “This hotel is simply amazing! The rooms are clean and comfortable, the staff is friendly and professional, and the location is great. I was very impressed with their attention to detail, from the elegant decor to the
+                excellent service. I would definitely return and recommend this hotel to everyone looking for a special stay experience.”
+              </blockquote>
+            </div>
+          </div>
+          <div class="card d-flex">
+            <img aria-label="male" src="./assets/img/testi-2.jpg" alt="male" />
+            <div class="content">
+              <h3>Adam</h3>
+              <div class="ratings">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <blockquote>
+                “I recently stayed at the Gho Hotel. In contrast to other hotels, I felt great comfort. The staff was friendly, and their service was very professional. The rooms were beautiful, clean, and comfortable with a pleasant modern
+                touch. I especially appreciated the focus they have on sustainability, from the use of renewable energy to organic toiletries. My experience at Gho Hotel was truly special, and I will definitely be back. Highly recommended!”
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer-section">
+      <div class="container">
+        <div class="grid">
+          <div class="about m-b">
+            <h3>about</h3>
+            <p>Gho Hotel presents the ideal destination for an eco-friendly holiday.</p>
+          </div>
+          <div class="quick-menu menu--links m-b">
+            <h3>quick menu</h3>
+            <li><a href="./pages/room.html">rooms</a></li>
+            <li><a href="./pages/event.html">events</a></li>
+            <li><a href="./pages/about.html">about</a></li>
+            <li><a href="./pages/contact.html">contact</a></li>
+          </div>
+          <div class="other-links menu--links m-b">
+            <h3>Hotel Features</h3>
+            <li><a href="#hotel-features">free wifi</a></li>
+            <li><a href="#hotel-features">Green Hotel</a></li>
+            <li><a href="#hotel-features">Privacy Room</a></li>
+            <li><a href="#hotel-features">swimming pool</a></li>
+          </div>
+          <div class="social-links m-b">
+            <h3>social icons</h3>
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.twitter.com/" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/" target="_blank">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright &copy; 2023 All Rights Reserved | by
+            <a href="index.html">Gho Hotel</a>
+          </p>
+        </div>
+      </div>
+      <div class="page-up">
+        <a href="#">
+          <i class="fas fa-angle-double-up"></i>
+        </a>
+      </div>
+    </section>
+    <script defer src="./js/index.js"></script>
+    <script defer src="./js/server-room-index.js"></script>
+  </body>
+</html>
